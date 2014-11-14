@@ -1,0 +1,229 @@
+.tg  {width: 100%; border-collapse:collapse;border-spacing:0;border-color:#ccc; margin-top: 7px;}
+.tg td{font-family: 'Open Sans', helvetica, arial, sans-serif, sans-serif;font-size:14px;padding:15px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;border-top-width:1px;border-bottom-width:1px;}
+.tg th{font-family: 'Open Sans', helvetica, arial, sans-serif, sans-serif;font-size:14px;font-weight:normal;padding:15px 20px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;border-top-width:1px;border-bottom-width:1px;}
+.tg .tg-s6z2{text-align:center}
+.tg-031e {
+    text-align: center;
+}
+.type {
+
+}
+.type div{
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+}
+.last_td {
+}
+.type_td {
+    width: 55% !important;
+}
+.type_th div{
+    text-align: center;
+    display: inline-block;
+    width: 32%;
+}
+.tg span {
+    color: blue;
+    font-size: 18px;
+}
+.compund_th {
+    text-align: left;
+    width: 25% !important;
+}
+.form_product {
+    z-index: 2000;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+    background-color: #f1f5fc;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    -webkit-box-shadow:0 0 10px rgba(0,0,0,0.5);
+    -moz-border-radius: 10px; /* Firefox */
+    -webkit-border-radius: 10px; /* Safari, Chrome */
+    -khtml-border-radius: 10px; /* KHTML */
+    border-radius: 10px; /* CSS3 */
+}
+.div_form {
+    width: 470px;
+}
+
+.iform {font: 12px/26px Verdana, Geneva, sans-serif; width:400px; margin:10px auto; float: left; margin-left: 20px;}
+.iform ul { margin:0; padding:0; list-style:none;}
+.iform ul ul { overflow:auto}
+.iform li {
+    padding-bottom:5px;
+    width: 450px;
+}
+.iform label {
+    width:90px;
+    display:block;
+    float:left;
+    line-height:26px;
+    font-weight: bold;
+}
+.iform label.ilabel {
+    width:auto; display:inline; float:none; line-height:26px; padding:0 5px
+}
+
+.iform .itext,.iform .itextarea,.iform .iselect,.iform .ibutton, .table_change_type .itext, .ibutton {
+    width:250px;
+    border:1px solid #999;
+    -webkit-border-radius: 3px;-khtml-border-radius:3px;-moz-border-radius:3px;border-radius:3px;
+    margin:0;
+    padding:5px;
+    background: #fff;
+    background: -webkit-gradient(linear, left top, left 25, from(#fff), color-stop(6%, #eee), to(#fff));
+    background: -moz-linear-gradient(top, #fff, #eee 2px, #fff 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+
+}
+
+.iform .itext:hover,.iform .itextarea:hover,.iform .iselect:hover,.iform .ibutton:hover,
+.iform .itext:focus,.iform .itextarea:focus,.iform .iselect:focus,.iform .ibutton:focus{
+
+    border-color: #333;
+    background:#fff;
+
+}
+
+.iform .itext {
+}
+
+
+.iform .itextarea{
+    height:100px; width: 250px;
+}
+.iform .ibutton, .table_change_type .ibutton {
+
+    width:auto;
+    background: #efefef;
+    background: -webkit-gradient(linear, left top, left 25, from(#dadada), color-stop(6%, #efefef), to(#dadada));
+    background: -moz-linear-gradient(top, #dadada, #efefef 2px, #dadada 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+
+}
+.iform .ibutton:hover,
+.table_change_type .ibutton:hover,
+.iform .ibutton:focus,
+.table_change_type .ibutton:focus {
+    background:#dadada;
+    border-color: #333;
+}
+
+.iform li.iheader { display:block; font-size:18px; border-bottom:1px solid #000; padding:5px; text-indent:10px; margin:5px 0 15px }
+.iform li.iseparator { display:block; text-indent:-9999px; height:10px; line-height:10px; border-bottom:1px solid #999;margin:5px 0 15px }
+
+.iform .required { border-color:#F00; }
+
+#imessageOK,#imessageERROR{ border:1px solid #F60; padding:10px; font-size:16px; font-weight:bold; text-align: center; display:none; margin-bottom:20px;
+
+    background: #F90;
+    background: -webkit-gradient(linear, left top, left 25, from(#F90), color-stop(4%, #FC0), to(#F90));
+    background: -moz-linear-gradient(top, #F90, #FC0 1px, #F90 25px);
+    color:#fff;
+}
+.table_change_type {
+    font: 12px/26px Verdana, Geneva, sans-serif;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+.header_form {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+}
+.header_form p {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 40px;
+}
+.header_form p span {
+    position: relative;
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.header_form p span:hover {
+    text-decoration: underline;
+}
+.table_change_type label:first-child {
+    width: 50px;
+}
+.table_change_type label {
+    width: 40px;
+}
+.table_change_type th {
+
+}
+.table_change_type td {
+}
+.table_change_type .itext{
+    width: 90px;
+    margin-left: 0px;
+}
+.table_change_type .ibutton {
+}
+.table_change_type .itext:hover {
+    border-color: #333;
+    background:#fff;
+}
+
+.a_chnage_product {
+    cursor: pointer;
+}
+.a_chnage_product:hover {
+    text-decoration: underline;
+}
+.a_chnage_img {
+    cursor: pointer;
+}
+.a_add_type {
+    cursor: pointer;
+}
+.a_add_type:hover {
+    text-decoration: underline;
+}
+.a_chnage_img:hover {
+    text-decoration: underline;
+}
+.a_del_product {
+    cursor: pointer;
+}
+.a_del_product:hover {
+    text-decoration: underline;
+}
+.box {
+    width: 360px;
+    height: 300px;
+
+}
+
+.div_file {
+    margin: 20px 0px 0px 40px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.h1_add_product {
+    font-size: 18px;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 20px;
+    color: #FF0066;
+}
+
+.h1_add_product:hover {
+    text-decoration: underline;
+}
